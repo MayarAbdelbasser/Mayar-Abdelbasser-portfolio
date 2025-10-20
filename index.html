@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <nav class="flex">
+      <div class="container nav__container">
+        <a href="#nav" id="nav" class="nav__logo transition">Mayar</a>
+        <button class="nav__toggle">
+          <span class="transition bar"></span>
+          <span class="transition bar"></span>
+          <span class="transition bar"></span>
+        </button>
+        <ul class="nav__menu transition">
+          <li><a href="#" class="transition">Home</a></li>
+          <li><a href="#" class="transition">About</a></li>
+          <li><a href="#" class="transition">Skills</a></li>
+          <li><a href="#" class="transition">Projects</a></li>
+          <li><a href="#" class="transition">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="hero">
+      <div class="container hero__container flex">
+        <div class="hero__info">
+          <div>
+            <p class="hero__hi">Hi, my name is</p>
+            <h1 class="hero__name">Mayar Abd Elbasser</h1>
+          </div>
+          <p class="hero__title">Frontend Developer</p>
+          <p class="hero__brief">
+            Crafting modern and responsive web experiences with clean code and
+            stunning design. I specialize in building exceptional digital
+            interfaces that bring ideas to life.
+          </p>
+          <button type="button" class="hero__btn flex">
+            View My Projects <i data-lucide="move-down"></i>
+          </button>
+          <div>
+            <i data-lucide="github" class="github"></i>
+            <i data-lucide="linkedin"></i>
+            <i data-lucide="mail"></i>
+          </div>
+        </div>
+        <div class="hero__img flex">
+          <img src="./assets/images/personal.png" />
+        </div>
+      </div>
+    </header>
+    <script src="./js/lucide.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
